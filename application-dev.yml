@@ -1,0 +1,14 @@
+spring:
+  rabbitmq:
+      addresses: 10.25.245.121:8088
+      username: guest
+      password: guest
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wangqi880/{application}-config.git
+          username: 444687196@qq.com
+          password: wq33427590
+ibird:
+  business: 666
